@@ -29,10 +29,10 @@ For using the preprocessing module, please copy the QPO_preprocessing.py file to
 import QPO_preprocessing
 
 To apply the preprocessing, you need to create a preprocessing model first. For example:
-model = pp_model(¡®Dell.csv¡¯)
+model = pp_model('Dell.csv')
 The only parameter is the file path which you want to train.
 
-After creation, you can apply the basic process ¡®model.processing()¡¯, the sampling based on user ¡®model.userBasedSample(df, 1)¡¯ and the sampling based on date ¡®model.dateBasedSample(df)¡¯ Or, you can just use ¡®model.full_processing()¡¯ to get all the preprocessing effects.
+After creation, you can apply the basic process model.processing(), the sampling based on user model.userBasedSample(df, 1) and the sampling based on date model.dateBasedSample(df). Or, you can just use model.full_processing() to get all the preprocessing effects.
 
 
 For emotion recognition:
